@@ -1,0 +1,54 @@
+--1.
+--SELECT * FROM Customers
+
+--2.
+--SELECT * FROM Customers WHERE City = 'London' OR City = 'Paris'
+
+--3.
+--SELECT DISTINCT City FROM Customers WHERE City IS NOT NULL 
+
+--4.
+--SELECT FirstName FROM Employees ORDER BY FirstName
+
+--5.
+--Select AVG(UnitPrice) From Products
+
+--6.
+--Select ProductName From Products Where UnitPrice = (Select MAX(UnitPrice) From Products)
+
+--7.
+--Select * From Employees WHERE Notes LIKE '%' + 'BA' + '%'
+
+--8.
+--Select Sum(UnitPrice * Quantity) From [Order Details] Group By OrderID
+
+--9.
+--Select * From Employees Where HireDate > 1/1/1994
+
+--10.
+--Select DATEDIFF (Year, HireDate, CURRENT_TIMESTAMP) From Employees
+
+--11.
+--Select * From Products Order by UnitsInStock ASC
+
+--12.
+--Select * From Products Order by UnitsInStock DESC
+
+--13.
+--Select * From Products Where UnitsInStock < 6
+
+--14.
+--Select * From Products Where ProductName Like '%' + 'Tofu' + '%'
+
+--15.
+--Select * From Products Where UnitPrice = (Select MAX(UnitPrice) From Products)
+
+--16.
+--Select * From Employees where HireDate > 1/1/1993
+
+--17.
+--Select * From Employees Where TitleOfCourtesy = 'Mr.' Or TitleOfCourtesy = 'Mrs.'
+
+--18.
+--Select * From Employees Where HomePhone Like '%' + '(206)' + '%'
+
